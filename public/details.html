@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/globals.css">
+  <link rel="stylesheet" href="/css/details.css">
+  <title>Mobile App</title>
+</head>
+
+<body class="details">
+  <header class="header details__header">
+    <button class="button button--icon header__button" aria-label="back button">
+      <img class="button__icon button__icon--arrow_left" src="/images/arrow-left.svg" alt="arrow left icon" />
+    </button>
+    <h2 class="header__text">Detail Doctor</h2>
+  </header>
+  <main class="main details__main">
+    <section class="section main__section main__section--time">
+      <h3 class="section section__heading section__heading--time">Time</h3>
+      <div class="controls section__controls">
+        <label for="time-0900AM" class="control control--time controls__control">
+          <span class="control__text">09.00 AM</span>
+          <input id="time-0900AM" type="radio" name="time" class="control__input control__input--time">
+        </label>
+        <label for="time-1100AM" class="control control--time controls__control">
+          <span class="control__text">11.00 AM</span>
+          <input id="time-1100AM" type="radio" name="time" class="control__input control__input--time">
+        </label>
+        <label for="time-0300PM" class="control control--time controls__control">
+          <span class="control__text">03.00 PM</span>
+          <input id="time-0300PM" type="radio" name="time" class="control__input control__input--time">
+        </label>
+      </div>
+    </section>
+  </main>
+  <footer class="footer details__footer">
+    <button class="button footer__button">
+      Book Appointment
+    </button>
+  </footer>
+</body>
+
+</html>

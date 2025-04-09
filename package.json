@@ -1,0 +1,13 @@
+{
+  "name": "ithub-reexam-html",
+  "scripts": {
+    "serve": "serve public -p 5000",
+    "test": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.51.1",
+    "playwright": "^1.51.1",
+    "serve": "^14.2.4"
+  }
+}

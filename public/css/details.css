@@ -1,0 +1,114 @@
+.details,
+.details * {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+.details {
+  background: #f8faff;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 64px 0 33px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 0 24px 24px 0;
+  display: flex;
+  align-items: center;
+  gap: 59px;
+}
+
+.header__text {
+  font-weight: var(--headline-16-font-weight);
+  font-size: var(--headline-16-font-size);
+  line-height: var(--headline-16-line-height);
+  letter-spacing: var(--headline-16-letter-spacing);
+  color: rgba(8, 12, 47, 0.75);
+}
+
+.button--icon {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.header__button {
+  background-color: white;
+  border-radius: 14px;
+  width: 51px;
+  height: 51px;
+}
+
+.footer {
+  margin-top: 11px;
+  padding-right: 56px;
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__button {
+  font-weight: var(--headline-16-font-weight);
+  font-size: var(--headline-16-font-size);
+  line-height: var(--headline-16-line-height);
+  letter-spacing: var(--headline-16-letter-spacing);
+  background-color: var(--primary-color);
+  border-radius: 46px;
+  color: white;
+  width: 263px;
+  height: 56px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section__heading--time {
+  color: black;
+  font-weight: var(--subline-20-font-weight);
+  font-size: var(--subline-20-font-size);
+  line-height: var(--subline-20-line-height);
+  letter-spacing: var(--subline-20-letter-spacing);
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+}
+
+.control {
+  position: relative;
+  padding: 12px 14px;
+  background: white;
+  box-shadow: var(--box-shadow);
+}
+
+.control--time {
+  border-radius: 35px;
+}
+
+.control:has(:checked) {
+  position: relative;
+  background: var(--primary-color);
+  color: white;
+}
+
+.control__input {
+  position: absolute;
+  inset: 0;
+  appearance: none;
+}

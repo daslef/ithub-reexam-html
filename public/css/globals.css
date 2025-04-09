@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  /* Colors */
+  --primary-color: #51a8ff;
+  --secondary-color: #080c2f;
+  --accent1: #fff2e4;
+  --accent2: #d0f8ec;
+  --linear-color: linear-gradient(180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.9) 100%);
+  --shadow: #b2b2b2;
+
+  /* Fonts */
+  --font-family: Poppins, sans-serif;
+
+  --headline-32-font-size: 32px;
+  --headline-32-line-height: 40px;
+  --headline-32-font-weight: 600;
+  --headline-32-letter-spacing: -0.2px;
+
+  --subline-20-font-size: 20px;
+  --subline-20-line-height: 100%;
+  --subline-20-font-weight: 600;
+  --subline-20-letter-spacing: normal;
+
+  --headline-16-font-size: 16px;
+  --headline-16-line-height: 100%;
+  --headline-16-font-weight: 500;
+  --headline-16-letter-spacing: 0.2px;
+
+  --headline-14-font-size: 14px;
+  --headline-14-line-height: 100%;
+  --headline-14-font-weight: 500;
+  --headline-14-letter-spacing: normal;
+
+  --text-font-size: 12px;
+  --text-line-height: 100%;
+  --text-font-weight: 400;
+  --text-letter-spacing: normal;
+
+  --text-14-font-size: 14px;
+  --text-14-line-height: 0.75rem;
+  --text-14-font-weight: 400;
+  --text-14-letter-spacing: normal;
+
+  /* Effects */
+  --box-shadow: 0 5px 30px 0 rgba(178, 178, 178, 0.2);
+}
+
+a,
+button,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  background: none;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+menu,
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}

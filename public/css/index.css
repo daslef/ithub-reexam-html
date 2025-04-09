@@ -1,0 +1,93 @@
+.home,
+.home * {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+.home {
+  background: #f8faff;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  padding: 64px 24px 24px;
+  background-color: var(--primary-color);
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__top__greeting {
+  font-weight: var(--headline-16-font-weight);
+  font-size: var(--headline-16-font-size);
+  line-height: var(--headline-16-line-height);
+  letter-spacing: var(--headline-16-letter-spacing);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.header__slogan {
+  font-weight: var(--headline-32-font-weight);
+  font-size: var(--headline-32-font-size);
+  line-height: var(--headline-32-line-height);
+  letter-spacing: var(--headline-32-letter-spacing);
+  color: white;
+}
+
+.header__search {
+  display: inline-flex;
+  margin-top: 48px;
+  border-radius: 28px;
+  background: var(--linear-color);
+  padding: 16px 22px;
+  height: 56px;
+  width: 100%;
+  gap: 18px;
+  align-items: center;
+}
+
+.header__search__input::placeholder,
+.header__search__input {
+  color: rgba(8, 12, 47, 0.65);
+  letter-spacing: 0.02px;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.button--icon {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.header__top__button {
+  background-color: #66b2ff;
+  border-radius: 14px;
+  width: 51px;
+  height: 51px;
+}
+
+.nav__button {
+  height: 32px;
+  width: 32px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 33px 33px 34px;
+  background: var(--linear-color);
+  box-shadow: var(--box-shadow);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
