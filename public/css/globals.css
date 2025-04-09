@@ -29,34 +29,10 @@
   --headline-16-font-weight: 500;
   --headline-16-letter-spacing: 0.2px;
 
-  --headline-14-font-size: 14px;
-  --headline-14-line-height: 100%;
-  --headline-14-font-weight: 500;
-  --headline-14-letter-spacing: normal;
-
-  --text-font-size: 12px;
-  --text-line-height: 100%;
-  --text-font-weight: 400;
-  --text-letter-spacing: normal;
-
-  --text-14-font-size: 14px;
-  --text-14-line-height: 0.75rem;
-  --text-14-font-weight: 400;
-  --text-14-letter-spacing: normal;
-
   /* Effects */
   --box-shadow: 0 5px 30px 0 rgba(178, 178, 178, 0.2);
 }
 
-a,
-button,
-input,
-select,
-h1,
-h2,
-h3,
-h4,
-h5,
 * {
   box-sizing: border-box;
   margin: 0;
