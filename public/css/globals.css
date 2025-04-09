@@ -9,7 +9,6 @@
   --linear-color: linear-gradient(180deg,
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 255, 255, 0.9) 100%);
-  --shadow: #b2b2b2;
 
   /* Fonts */
   --font-family: Poppins, sans-serif;
